@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+    color: blue;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+}
+
+header > .header-elem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+

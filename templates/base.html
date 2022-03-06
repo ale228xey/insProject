@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+
+<header>
+    <div class="header-elem">
+        <a href="" id="header" onclick="{% static 'js/index.js' %}">главная</a>
+        <a href="">моя страница</a>
+        <a href="">разработчикам</a>
+        <a href="">выйти</a>
+    </div>
+</header>
+
+{% block content %}
+{% endblock %}
+
+<script src="{% static 'js/index.js' %}"></script>
+
+
+</body>
+</html>
